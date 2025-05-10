@@ -13,9 +13,15 @@ A small utility that lets you play [golf.vim](https://github.com/vuciv/golf) lev
 - Doesn't track keystrokes, as it would require support of the terminal emulator, or helix plugins.
 - Doesn't display a leaderbord. It wouldn't be that useful anyway as there is no keystroke tracking.
 
+## Dependencies
+
+- [Helix](https://github.com/helix-editor/helix).
+- A POSIX-compliant shell.
+- [jq](https://jqlang.org/): lightweight JSON processor.
+
 ## Usage
 
-The only dependency is [Helix](https://github.com/helix-editor/helix), and a POSIX-compliant shell.
+The `--help` flag outputs the command usage.
 
 ```sh
 $ ./golf.sh --help
